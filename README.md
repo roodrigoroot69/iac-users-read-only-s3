@@ -7,5 +7,5 @@ Las capturas usadas en el *Tutorial* estan en la carpeta llamada "Capturas"
 
  *EJERCICIO 5. Uso de herramientas IaC*
 
- En el archivo [__main__.py ](https://github.com/roodrigoroot69/iac-users-read-only-s3/tree/main/tutorial)
+ En el archivo [__main__.py ](https://github.com/roodrigoroot69/iac-users-read-only-s3/blob/main/__main__.py)
  del repositorio tenemos el código que genera tres usuarios, policy, User Groups.
