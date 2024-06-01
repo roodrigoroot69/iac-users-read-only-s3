@@ -8,14 +8,9 @@ from policies import policy
 from users import user_one_s3, user_two_s3, user_three_s3
 
 
-
-
 group_policy_attachment = iam.GroupPolicyAttachment("groupPolicyAttachment",
     group=group.name,
     policy_arn=policy.arn)
-
-
-
 
 
 user_group_membership_one = iam.UserGroupMembership(f"{user_one_s3}UserGroupMembership",
